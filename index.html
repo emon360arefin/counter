@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="watch.js" defer></script>
+    <title>Stop Watch</title>
+</head>
+<body>
+
+    <main>
+        <header>
+
+        </header>
+
+        <!-- 1st Section -->
+
+        <section class="bg-slate-200 h-16">
+            <div class="inner max-w-6xl mx-auto h-full flex flex-row items-center justify-center">
+                <h2 class="text-center text-2xl font-semibold">Stop Watch</h2>
+            </div>
+        </section>
+
+
+        <!-- 2nd Section -->
+        <section class="bg-slate-100 h-full py-16">
+
+            <!-- Display -->
+            <div class="inner max-w-6xl mx-auto h-full flex flex-row items-center justify-center">
+                <div class="w-2/4 h-16 rounded bg-slate-200 flex flex-row items-center justify-center px-12 py-12">
+                    <h2 id="display" class="text-center text-4xl font-semibold">00</h2>
+                </div>
+            </div>
+
+            <!-- Controller -->
+            <div class="inner mt-4 max-w-6xl mx-auto h-full flex flex-row items-center justify-center">
+                <div class="w-2/4  rounded bg-slate-200 flex flex-row items-center justify-between px-4 py-2">
+                    <button id="start" class="w-40 text-center text-slate-800 hover:text-slate-50 border-2 hover:bg-slate-400 ease-in-out duration-300 border-slate-300 rounded bg-slate-50 px-8 py-2 text-xl font-semibold">START</button>
+                    <button id="pause" class="w-40 text-center text-slate-800 hover:text-slate-50 border-2 hover:bg-slate-400 ease-in-out duration-300 border-slate-300 rounded bg-slate-50 px-8 py-2 text-xl font-semibold">PAUSE</button>
+                    <button id="reset" class="w-40 text-center text-slate-800 hover:text-slate-50 border-2 hover:bg-red-400 ease-in-out duration-300 border-slate-300 rounded bg-red-200 px-8 py-2 text-xl font-semibold">RESET</button>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
